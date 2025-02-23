@@ -8,24 +8,40 @@ st.set_page_config(page_title="Shaik Noor Baji - Portfolio", page_icon="🚀", l
 profile_pic = "IMG-20230828-WA0006.jpg"
 
  # Apply custom CSS for a modern and interactive UI
-st.markdown(
-     """
-     <style>
-         body {background-color: #f8f9fa;}
-         .main {background: linear-gradient(135deg, #ff9a9e, #fad0c4); padding: 30px; border-radius: 12px; box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);}
-         h1 {color: #ff5733; font-size: 36px; text-align: center;}
-         h2 {color: #ff6f61; font-size: 28px;}
-         h3 {color: #ff914d; font-size: 24px;}
-         .stButton button {background: #ff4500; color: white; font-size: 18px; border-radius: 8px; padding: 12px 25px; font-weight: bold;}
-         .stSidebar {background: linear-gradient(135deg, #ff758c, #ff7eb3);}
-         .stSidebar .stRadio label {color: white; font-size: 18px; font-weight: bold;}
-         .section {padding: 50px 0;}
-         .hidden_anchor {position: absolute; top: -50px;}
-     </style>
-     """,
-     unsafe_allow_html=True
- )
+# st.markdown(
+#      """
+#      <style>
+#          body {background-color: #f8f9fa;}
+#          .main {background: linear-gradient(135deg, #ff9a9e, #fad0c4); padding: 30px; border-radius: 12px; box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);}
+#          h1 {color: #ff5733; font-size: 36px; text-align: center;}
+#          h2 {color: #ff6f61; font-size: 28px;}
+#          h3 {color: #ff914d; font-size: 24px;}
+#          .stButton button {background: #ff4500; color: white; font-size: 18px; border-radius: 8px; padding: 12px 25px; font-weight: bold;}
+#          .stSidebar {background: linear-gradient(135deg, #ff758c, #ff7eb3);}
+#          .stSidebar .stRadio label {color: white; font-size: 18px; font-weight: bold;}
+#          .section {padding: 50px 0;}
+#          .hidden_anchor {position: absolute; top: -50px;}
+#      </style>
+#      """,
+#      unsafe_allow_html=True
+#  )
 
+st.markdown(
+    """
+    <style>
+        body {background-color: #f8f9fa;}
+        .main {background: linear-gradient(135deg, #ff9a9e, #fad0c4); padding: 30px; border-radius: 12px; box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);}
+        h1 {color: #ff5733; font-size: 36px; text-align: center;}
+        h2 {color: #ff6f61; font-size: 28px;}
+        h3 {color: #ff914d; font-size: 24px;}
+        .stButton button {background: #ff4500; color: white; font-size: 18px; border-radius: 8px; padding: 12px 25px; font-weight: bold;}
+        .stSidebar {background: linear-gradient(135deg, #ff758c, #ff7eb3); padding: 20px; border-radius: 12px;}
+        .stSidebar .stRadio label {color: white; font-size: 18px; font-weight: bold;}
+        .nav-box {background-color: #ffffff; padding: 10px; margin: 10px 0; border-radius: 8px; text-align: center; font-weight: bold; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 #  # Sidebar Navigation (For Quick Jump)
 # st.sidebar.title("📌 Quick Navigation")
 # st.sidebar.markdown("[🏠 Home](#home)", unsafe_allow_html=True)
