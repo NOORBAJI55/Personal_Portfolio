@@ -40,8 +40,8 @@ st.write("______________________________________________________________________
  # ---- Home Section ----
 st.markdown('<div class="hidden_anchor" id="home"></div>', unsafe_allow_html=True)
 st.container()
-st.title("🚀 Shaik Noor Baji")
-st.image(profile_pic, width=200)
+st.title("🚀 SHAIK NOOR BAJI")
+st.image(profile_pic, width=150)
 st.subheader("🔥 Aspiring Data Scientist & Full-Stack Developer")
 st.write(
      "💡 Passionate about AI, Machine Learning, and Web Development. "
