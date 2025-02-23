@@ -3,6 +3,18 @@
 import streamlit as st
 from PIL import Image
 
+
+import streamlit as st
+from PIL import Image
+
+# Set page config (MUST be the first Streamlit command)
+st.set_page_config(page_title="Shaik Noor Baji - Portfolio", page_icon=":rocket:", layout="wide")
+
+# Load profile picture
+profile_pic = "IMG-20230828-WA0006.jpg"  # Use uploaded image
+
+
+
 # Load profile picture
 # profile_pic = "IMG-20230828-WA0006.jpg"  # Use uploaded image
 profile_pic = "IMG-20230828-WA0006.jpg"
