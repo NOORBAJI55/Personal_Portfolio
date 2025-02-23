@@ -2,7 +2,25 @@ import streamlit as st
 from PIL import Image
 
 # Load profile picture
-profile_pic = "https://your-profile-pic-url.com"  # Replace with actual image URL
+profile_pic = "IMG-20230828-WA0006.jpg"  # Use uploaded image
+
+# Set page config
+st.set_page_config(page_title="Shaik Noor Baji - Portfolio", page_icon=":rocket:", layout="wide")
+
+# Apply custom CSS for better styling
+st.markdown(
+    """
+    <style>
+        body {background-color: #f4f4f4;}
+        .main {background-color: #ffffff; padding: 20px; border-radius: 10px;}
+        h1 {color: #2E86C1;}
+        h2 {color: #2874A6;}
+        h3 {color: #21618C;}
+        .stButton button {background-color: #2874A6; color: white; border-radius: 10px;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Sidebar
 st.sidebar.title("Navigation")
@@ -19,6 +37,7 @@ if page == "Home":
 # About Me
 elif page == "About Me":
     st.header("About Me")
+    st.image(profile_pic, width=150)
     st.write("### Education")
     st.write("- **B.Tech (CSE)** - NRI Institute of Technology (CGPA: 7.69)")
     st.write("- **Intermediate (MPC)** - Sri Vagdevi Jr College (82.6%)")
