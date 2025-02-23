@@ -84,6 +84,7 @@ st.markdown('<div class="hidden_anchor" id="projects"></div>', unsafe_allow_html
 st.container()
 st.header("🚀 Projects")
 
+st.write("")
 
 st.subheader("📝 Blog Application")
 st.write("💡 Technologies: Flask, SQLite3, HTML, CSS")
@@ -102,7 +103,7 @@ st.write("[🌐 Live App](https://youtube-video-audio-downloader-online.streamli
 
 
 st.subheader("Language_Detector 🔍")
-st.write("🔹 A Python script that detects the language of a given text using the langdetect library. Supports detection of over 70 languages. Simply input a sentence, and the script will identify the language.#language-detection #NLP #Python #langdetect")
+st.write("🔹 A Python script that detects the language of a given text using the langdetect library. Supports detection of over 70 languages. Simply input a sentence, and the script will identify the language.")
 st.write("[🔗 GitHub](https://github.com/NOORBAJI55/Language_Detector)")
 
 
