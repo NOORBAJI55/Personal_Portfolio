@@ -35,6 +35,7 @@ st.sidebar.markdown('<div class="nav-box"><a href="#skills">📚 Skills</a></div
 st.sidebar.markdown('<div class="nav-box"><a href="#certifications">🏅 Certifications</a></div>', unsafe_allow_html=True)
 st.sidebar.markdown('<div class="nav-box"><a href="#contact">📞 Contact</a></div>', unsafe_allow_html=True)
 
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
  # ---- Home Section ----
 st.markdown('<div class="hidden_anchor" id="home"></div>', unsafe_allow_html=True)
