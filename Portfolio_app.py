@@ -49,6 +49,8 @@ st.write(
  )
 st.write("🔗 [LinkedIn](https://www.linkedin.com/in/shaik-noor-baji/) | 🔗 [GitHub](https://github.com/NOORBAJI55)")
 
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
+
  # ---- About Me ----
 st.markdown('<div class="hidden_anchor" id="about-me"></div>', unsafe_allow_html=True)
 st.container()
@@ -58,6 +60,8 @@ st.write("### 🎓 Education")
 st.write("- 📌 **B.Tech (CSE)** - NRI Institute of Technology (CGPA: 7.69)")
 st.write("- 📌 **Intermediate (MPC)** - Sri Vagdevi Jr College (82.6%)")
 st.write("- 📌 **SSC** - Kumar Public School (CGPA: 9.8)")
+
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
  # ---- Internships ----
 st.markdown('<div class="hidden_anchor" id="internships"></div>', unsafe_allow_html=True)
@@ -72,6 +76,8 @@ st.write("🔹 Machine Learning - Developed predictive models and data analytics
 
 st.subheader("🎯 ExcelR (May 2024 – Jul 2024)")
 st.write("🔹 MERN Stack - Built and deployed full-stack applications.")
+
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
  # ---- Projects ----
 st.markdown('<div class="hidden_anchor" id="projects"></div>', unsafe_allow_html=True)
@@ -95,6 +101,8 @@ st.subheader("Language_Detector 🔍")
 st.write("🔹 A Python script that detects the language of a given text using the langdetect library. Supports detection of over 70 languages. Simply input a sentence, and the script will identify the language.#language-detection #NLP #Python #langdetect")
 st.write("[🔗 GitHub](https://github.com/NOORBAJI55/Language_Detector)")
 
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
+
  # ---- Skills ----
 st.markdown('<div class="hidden_anchor" id="skills"></div>', unsafe_allow_html=True)
 st.container()
@@ -102,6 +110,8 @@ st.header("📚 Technical Skills")
 st.write("🔥 **Programming Languages:** Python, Java, C, HTML/CSS, JavaScript, SQL, Flask")
 st.write("🔥 **Developer Tools:** VS Code, Eclipse, Google Cloud Platform")
 st.write("🔥 **Technologies:** GitHub, MERN Stack, Machine Learning")
+
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
  # ---- Certifications ----
 st.markdown('<div class="hidden_anchor" id="certifications"></div>', unsafe_allow_html=True)
@@ -116,6 +126,8 @@ st.write("🏆 **Coursera:** Google Ads for Beginners")
 st.write("🏆 **Simplilearn:** Power BI, Generative AI")
 st.write("🏆 **GUVI:** Generative AI, Python")
 
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
+
 # # ---- Contact ----
 st.markdown('<div class="hidden_anchor" id="contact"></div>', unsafe_allow_html=True)
 st.container()
@@ -123,4 +135,5 @@ st.header("📞 Contact Information")
 st.write("📧 **Email:** shaiknoorbaji35@gmail.com")
 st.write("📞 **Phone:** +91 9505163556")
 st.write("🔗 [LinkedIn](https://www.linkedin.com/in/shaik-noor-baji/) | 🔗 [GitHub](https://github.com/NOORBAJI55)")
+st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
