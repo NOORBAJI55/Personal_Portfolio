@@ -26,15 +26,26 @@ st.markdown(
      unsafe_allow_html=True
  )
 
- # Sidebar Navigation (For Quick Jump)
+#  # Sidebar Navigation (For Quick Jump)
+# st.sidebar.title("📌 Quick Navigation")
+# st.sidebar.markdown("[🏠 Home](#home)", unsafe_allow_html=True)
+# st.sidebar.markdown("[📖 About Me](#about-me)", unsafe_allow_html=True)
+# st.sidebar.markdown("[💼 Internships](#internships)", unsafe_allow_html=True)
+# st.sidebar.markdown("[🚀 Projects](#projects)", unsafe_allow_html=True)
+# st.sidebar.markdown("[📚 Skills](#skills)", unsafe_allow_html=True)
+# st.sidebar.markdown("[🏅 Certifications](#certifications)", unsafe_allow_html=True)
+# st.sidebar.markdown("[📞 Contact](#contact)", unsafe_allow_html=True)
+
+# Sidebar Navigation with Boxed Design
 st.sidebar.title("📌 Quick Navigation")
-st.sidebar.markdown("[🏠 Home](#home)", unsafe_allow_html=True)
-st.sidebar.markdown("[📖 About Me](#about-me)", unsafe_allow_html=True)
-st.sidebar.markdown("[💼 Internships](#internships)", unsafe_allow_html=True)
-st.sidebar.markdown("[🚀 Projects](#projects)", unsafe_allow_html=True)
-st.sidebar.markdown("[📚 Skills](#skills)", unsafe_allow_html=True)
-st.sidebar.markdown("[🏅 Certifications](#certifications)", unsafe_allow_html=True)
-st.sidebar.markdown("[📞 Contact](#contact)", unsafe_allow_html=True)
+st.sidebar.markdown('<div class="nav-box"><a href="#home">🏠 Home</a></div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="nav-box"><a href="#about-me">📖 About Me</a></div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="nav-box"><a href="#internships">💼 Internships</a></div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="nav-box"><a href="#projects">🚀 Projects</a></div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="nav-box"><a href="#skills">📚 Skills</a></div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="nav-box"><a href="#certifications">🏅 Certifications</a></div>', unsafe_allow_html=True)
+st.sidebar.markdown('<div class="nav-box"><a href="#contact">📞 Contact</a></div>', unsafe_allow_html=True)
+
 
  # ---- Home Section ----
 st.markdown('<div class="hidden_anchor" id="home"></div>', unsafe_allow_html=True)
