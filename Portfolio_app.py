@@ -126,7 +126,7 @@ st.write("🏆 **Coursera:** Google Ads for Beginners")
 st.write("🏆 **Simplilearn:** Power BI, Generative AI")
 st.write("🏆 **GUVI:** Generative AI, Python")
 
-st.write("**_________________________________________________________________________________________**")
+st.write("_________________________________________________________________________________________")
 
 # # ---- Contact ----
 st.markdown('<div class="hidden_anchor" id="contact"></div>', unsafe_allow_html=True)
