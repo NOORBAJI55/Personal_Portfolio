@@ -52,7 +52,7 @@ st.write("🔗 [LinkedIn](https://www.linkedin.com/in/shaik-noor-baji/) | 🔗 [
 st.markdown('<div class="hidden_anchor" id="about-me"></div>', unsafe_allow_html=True)
 st.container()
 st.header("📖 About Me")
-st.image(profile_pic, width=150)
+# st.image(profile_pic, width=150)
 st.write("### 🎓 Education")
 st.write("- 📌 **B.Tech (CSE)** - NRI Institute of Technology (CGPA: 7.69)")
 st.write("- 📌 **Intermediate (MPC)** - Sri Vagdevi Jr College (82.6%)")
