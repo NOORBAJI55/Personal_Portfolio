@@ -91,20 +91,27 @@ st.write("💡 Technologies: Flask, SQLite3, HTML, CSS")
 st.write("📌 A dynamic blog platform with CRUD operations.")
 st.write("[🔗 GitHub](https://github.com/NOORBAJI55)")
 
+st.write("")
+
 
 st.subheader("📅 Days Calculator")
 st.write("🔹 A Python-based CLI app to calculate days lived from birth.")
 st.write("[🔗 GitHub](https://github.com/NOORBAJI55/DaysCalculator)")
+
+st.write("")
 
 
 st.subheader("🎬 YouTube Downloader")
 st.write("🔹 A web app to download YouTube videos and audio.")
 st.write("[🌐 Live App](https://youtube-video-audio-downloader-online.streamlit.app/)")
 
+st.write("")
 
 st.subheader("Language_Detector 🔍")
 st.write("🔹 A Python script that detects the language of a given text using the langdetect library. Supports detection of over 70 languages. Simply input a sentence, and the script will identify the language.")
 st.write("[🔗 GitHub](https://github.com/NOORBAJI55/Language_Detector)")
+
+st.write("")
 
 
 st.write("________________________________________________________________________________________________________________________________________________________________________________________")
