@@ -2,8 +2,10 @@ import streamlit as st
 from PIL import Image
 
 # Load profile picture
-# profile_pic = "IMG-20230828-WA0006.jpg"  # Use uploaded image
-st.image("https://photos.app.goo.gl/hmBR9LgHFG9cLjsVA", width=200)
+# # profile_pic = "IMG-20230828-WA0006.jpg"  # Use uploaded image
+# st.image("https://photos.app.goo.gl/hmBR9LgHFG9cLjsVA", width=200)
+profile_pic = "IMG-20230828-WA0006.jpg"
+st.image(profile_pic, width=200)
 
 
 # Set page config
