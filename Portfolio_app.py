@@ -7,24 +7,6 @@ st.set_page_config(page_title="Shaik Noor Baji - Portfolio", page_icon="🚀", l
  # Load profile picture
 profile_pic = "IMG-20230828-WA0006.jpg"
 
- # Apply custom CSS for a modern and interactive UI
-# st.markdown(
-#      """
-#      <style>
-#          body {background-color: #f8f9fa;}
-#          .main {background: linear-gradient(135deg, #ff9a9e, #fad0c4); padding: 30px; border-radius: 12px; box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);}
-#          h1 {color: #ff5733; font-size: 36px; text-align: center;}
-#          h2 {color: #ff6f61; font-size: 28px;}
-#          h3 {color: #ff914d; font-size: 24px;}
-#          .stButton button {background: #ff4500; color: white; font-size: 18px; border-radius: 8px; padding: 12px 25px; font-weight: bold;}
-#          .stSidebar {background: linear-gradient(135deg, #ff758c, #ff7eb3);}
-#          .stSidebar .stRadio label {color: white; font-size: 18px; font-weight: bold;}
-#          .section {padding: 50px 0;}
-#          .hidden_anchor {position: absolute; top: -50px;}
-#      </style>
-#      """,
-#      unsafe_allow_html=True
-#  )
 
 st.markdown(
     """
@@ -42,15 +24,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-#  # Sidebar Navigation (For Quick Jump)
-# st.sidebar.title("📌 Quick Navigation")
-# st.sidebar.markdown("[🏠 Home](#home)", unsafe_allow_html=True)
-# st.sidebar.markdown("[📖 About Me](#about-me)", unsafe_allow_html=True)
-# st.sidebar.markdown("[💼 Internships](#internships)", unsafe_allow_html=True)
-# st.sidebar.markdown("[🚀 Projects](#projects)", unsafe_allow_html=True)
-# st.sidebar.markdown("[📚 Skills](#skills)", unsafe_allow_html=True)
-# st.sidebar.markdown("[🏅 Certifications](#certifications)", unsafe_allow_html=True)
-# st.sidebar.markdown("[📞 Contact](#contact)", unsafe_allow_html=True)
 
 # Sidebar Navigation with Boxed Design
 st.sidebar.title("📌 Quick Navigation")
@@ -116,6 +89,12 @@ st.write("[🔗 GitHub](https://github.com/NOORBAJI55/DaysCalculator)")
 st.subheader("🎬 YouTube Downloader")
 st.write("🔹 A web app to download YouTube videos and audio.")
 st.write("[🌐 Live App](https://youtube-video-audio-downloader-online.streamlit.app/)")
+
+st.subheader("Language_Detector 🔍")
+st.write("🔹 A Python script that detects the language of a given text using the langdetect library. 
+Supports detection of over 70 languages. Simply input a sentence, and the script will identify the 
+language.#language-detection #NLP #Python #langdetect")
+st.write("[🔗 GitHub]("https://github.com/NOORBAJI55/Language_Detector")
 
  # ---- Skills ----
 st.markdown('<div class="hidden_anchor" id="skills"></div>', unsafe_allow_html=True)
