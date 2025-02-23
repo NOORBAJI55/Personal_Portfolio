@@ -1,5 +1,5 @@
- import streamlit as st
- from PIL import Image
+import streamlit as st
+from PIL import Image
 
 # # Set page configuration
 st.set_page_config(page_title="Shaik Noor Baji - Portfolio", page_icon="🚀", layout="wide")
