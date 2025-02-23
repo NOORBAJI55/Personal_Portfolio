@@ -5,10 +5,10 @@ from PIL import Image
 st.set_page_config(page_title="Shaik Noor Baji - Portfolio", page_icon="🚀", layout="wide")
 
  # Load profile picture
- profile_pic = "IMG-20230828-WA0006.jpg"
+profile_pic = "IMG-20230828-WA0006.jpg"
 
  # Apply custom CSS for a modern and interactive UI
- st.markdown(
+st.markdown(
      """
      <style>
          body {background-color: #f8f9fa;}
