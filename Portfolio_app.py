@@ -51,8 +51,7 @@ st.write("🔗 [LinkedIn](https://www.linkedin.com/in/shaik-noor-baji/) | 🔗 [
 
 
 
-st.markdown("![Git Logo](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)")
-
+st.markdown("![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)")
 
 st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
