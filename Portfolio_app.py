@@ -49,6 +49,11 @@ st.write(
  )
 st.write("🔗 [LinkedIn](https://www.linkedin.com/in/shaik-noor-baji/) | 🔗 [GitHub](https://github.com/NOORBAJI55)")
 
+
+
+st.markdown("![Git Logo](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)")
+
+
 st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
  # ---- About Me ----
