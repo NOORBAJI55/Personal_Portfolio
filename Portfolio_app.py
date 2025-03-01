@@ -50,13 +50,6 @@ st.write(
 st.write("🔗 [LinkedIn](https://www.linkedin.com/in/shaik-noor-baji/) | 🔗 [GitHub](https://github.com/NOORBAJI55)")
 
 
-
-
-github_logo_url = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-st.image(github_logo_url, width=30)  # Adjust width as needed
-
-st.image(github_logo_url, width=100)
-
 st.write("________________________________________________________________________________________________________________________________________________________________________________________")
 
  # ---- About Me ----
