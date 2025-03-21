@@ -45,7 +45,7 @@ st.image(profile_pic, width=150)
 st.subheader("🔥 Aspiring Data Scientist & Full-Stack Developer")
 st.write(
      "💡 Passionate about AI, Machine Learning, and Web Development. "
-     "Experienced in Python, Java, MERN Stack, and Cloud Technologies."
+     "Experienced in Python, Java and Cloud Technologies."
  )
 st.write("🔗 [LinkedIn](https://www.linkedin.com/in/shaik-noor-baji/) | 🔗 [GitHub](https://github.com/NOORBAJI55)")
 
